@@ -1,0 +1,115 @@
+body {
+    font-family: 'Radio Canada', sans-serif;
+    background-color: #a4d3fc28;
+}
+
+section {
+    margin: 55px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+    margin: 25px 0px;
+    font-size: 26px;
+}
+
+.application>h3 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+
+.application>ul>li>input {
+    color: grey;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+}
+
+.application>ul>li {
+    padding: 5px 0px;
+}
+
+.application {
+    background: rgba(255, 255, 255, 0.699);
+    box-shadow: 0 0 10px lightgray;
+    padding: 40px 30px;
+    border-radius: 5px;
+    max-width: 235px;
+}
+
+section>.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.red-circle {
+    border-radius: 55%;
+    background: rgb(222, 40, 40);
+    width: 10px;
+    height: 10px;
+}
+
+.grey-circle {
+    border-radius: 5%;
+    background: rgb(230, 227, 227);
+    width: 10px;
+    height: 10px;
+}
+
+.grey-line {
+    border: 2px solid rgb(230, 227, 227);
+    background: rgb(230, 227, 227);
+    width: 90px;
+}
+
+.red-line {
+    border: 2px solid rgb(222, 40, 40);
+    background: rgb(222, 40, 40);
+    width: 90px;
+}
+
+.button {
+    padding-top: 28px;
+}
+
+.button>a {
+    display: block;
+    color: white;
+    background: rgb(222, 40, 40);
+    box-shadow: 0 0 5px rgb(60, 57, 57);
+    border: rgb(222, 40, 40);
+    padding: 14px 19px;
+    text-decoration: none;
+    border-radius: 6px;
+    white-space: nowrap;
+}
+
+.buttons {
+    width: 295px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.buttons>.end-buttons {
+    padding: 29px 0px 18px 18px;
+}
+
+.buttons>.end-buttons>a,
+button {
+    display: block;
+    color: white;
+    background: rgb(222, 40, 40);
+    box-shadow: 0 0 5px rgb(60, 57, 57);
+    border: rgb(222, 40, 40);
+    padding: 14px 19px;
+    text-decoration: none;
+    border-radius: 6px;
+    white-space: nowrap;
+}
